@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS: Title is Matching]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Title is Matching]]>
+    </line>
+  </reporter-output>
+  <suite name="ActiTIMESuite" duration-ms="54527" started-at="2017-08-12T11:02:30Z" finished-at="2017-08-12T11:03:25Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="43230" started-at="2017-08-12T11:02:30Z" finished-at="2017-08-12T11:03:14Z">
+      <class name="com.actitime.test.InvalidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.InvalidLogin@3532ec19]" name="preCondition" is-config="true" duration-ms="5687" started-at="2017-08-12T16:32:41Z" finished-at="2017-08-12T16:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.actitime.test.InvalidLogin@3532ec19]" name="testInvalidLogin" duration-ms="11036" started-at="2017-08-12T16:32:47Z" finished-at="2017-08-12T16:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.test.InvalidLogin@3532ec19]" name="postCondition" is-config="true" duration-ms="720" started-at="2017-08-12T16:32:58Z" finished-at="2017-08-12T16:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.ValidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.ValidLogin@68c4039c]" name="preCondition" is-config="true" duration-ms="6784" started-at="2017-08-12T16:32:31Z" finished-at="2017-08-12T16:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.actitime.test.ValidLogin@68c4039c]" name="testValidLogin" duration-ms="3184" started-at="2017-08-12T16:32:37Z" finished-at="2017-08-12T16:32:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.test.ValidLogin@68c4039c]" name="postCondition" is-config="true" duration-ms="997" started-at="2017-08-12T16:32:40Z" finished-at="2017-08-12T16:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.test.ValidLogin -->
+      <class name="com.actitime.test.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.VerifyProductVersion@ae45eb6]" name="preCondition" is-config="true" duration-ms="5183" started-at="2017-08-12T16:32:59Z" finished-at="2017-08-12T16:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:3, instance:com.actitime.test.VerifyProductVersion@ae45eb6]" name="testVerifyProductVersion" duration-ms="8710" started-at="2017-08-12T16:33:04Z" finished-at="2017-08-12T16:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.test.VerifyProductVersion@ae45eb6]" name="postCondition" is-config="true" duration-ms="906" started-at="2017-08-12T16:33:13Z" finished-at="2017-08-12T16:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.test.VerifyProductVersion -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="54527" started-at="2017-08-12T11:02:30Z" finished-at="2017-08-12T11:03:25Z">
+      <class name="com.actitime.test.InvalidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.InvalidLogin@1b604f19]" name="preCondition" is-config="true" duration-ms="6028" started-at="2017-08-12T16:32:48Z" finished-at="2017-08-12T16:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.actitime.test.InvalidLogin@1b604f19]" name="testInvalidLogin" duration-ms="14216" started-at="2017-08-12T16:32:54Z" finished-at="2017-08-12T16:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.test.InvalidLogin@1b604f19]" name="postCondition" is-config="true" duration-ms="293" started-at="2017-08-12T16:33:08Z" finished-at="2017-08-12T16:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.ValidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.ValidLogin@7823a2f9]" name="preCondition" is-config="true" duration-ms="12733" started-at="2017-08-12T16:32:31Z" finished-at="2017-08-12T16:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.actitime.test.ValidLogin@7823a2f9]" name="testValidLogin" duration-ms="4473" started-at="2017-08-12T16:32:43Z" finished-at="2017-08-12T16:32:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.test.ValidLogin@7823a2f9]" name="postCondition" is-config="true" duration-ms="328" started-at="2017-08-12T16:32:48Z" finished-at="2017-08-12T16:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.test.ValidLogin -->
+      <class name="com.actitime.test.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.test.VerifyProductVersion@4cc0edeb]" name="preCondition" is-config="true" duration-ms="6303" started-at="2017-08-12T16:33:09Z" finished-at="2017-08-12T16:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:3, instance:com.actitime.test.VerifyProductVersion@4cc0edeb]" name="testVerifyProductVersion" duration-ms="9660" started-at="2017-08-12T16:33:15Z" finished-at="2017-08-12T16:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.test.VerifyProductVersion@4cc0edeb]" name="postCondition" is-config="true" duration-ms="471" started-at="2017-08-12T16:33:25Z" finished-at="2017-08-12T16:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.test.VerifyProductVersion -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- ActiTIMESuite -->
+</testng-results>
