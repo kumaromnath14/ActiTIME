@@ -13,7 +13,7 @@ public class EnterTimeTrackPage extends BasePage{
 	@FindBy(xpath="//div[contains(text(),'Help')]")
 	private WebElement helpMenu;
 	
-	@FindBy(linkText="About your actiTIME")
+	@FindBy(linkText="About your actiTI")
 	private WebElement aboutActiTIMEMenu;
 	
 	@FindBy(css=".productVersion")
